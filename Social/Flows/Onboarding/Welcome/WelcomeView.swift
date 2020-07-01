@@ -11,7 +11,6 @@ struct WelcomeView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Spacer()
                 Button("Log In") {
                     
                 }
