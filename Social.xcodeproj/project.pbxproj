@@ -83,7 +83,7 @@
 			children = (
 				5D257A5B24AC20FA008C91F8 /* Launch */,
 				5D257A5224AC2012008C91F8 /* Onboarding */,
-				DCA51B2B24B10EB60083B8EB /* MyWorkouts */,
+				DCA51B2B24B10EB60083B8EB /* Workout */,
 			);
 			path = Flows;
 			sourceTree = "<group>";
@@ -139,12 +139,12 @@
 			path = Welcome;
 			sourceTree = "<group>";
 		};
-		DCA51B2B24B10EB60083B8EB /* MyWorkouts */ = {
+		DCA51B2B24B10EB60083B8EB /* Workout */ = {
 			isa = PBXGroup;
 			children = (
 				DCA51B2C24B10EEB0083B8EB /* WorkoutListView */,
 			);
-			path = MyWorkouts;
+			path = Workout;
 			sourceTree = "<group>";
 		};
 		DCA51B2C24B10EEB0083B8EB /* WorkoutListView */ = {
