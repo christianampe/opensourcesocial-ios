@@ -13,6 +13,7 @@
 		5D257A5824AC203E008C91F8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D257A5724AC203E008C91F8 /* LoginView.swift */; };
 		5D257A5A24AC20A4008C91F8 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D257A5924AC20A4008C91F8 /* LoginViewModel.swift */; };
 		5D257A5F24AC2132008C91F8 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D257A5E24AC2132008C91F8 /* WelcomeView.swift */; };
+		DCD8A10B24AFFA55004A610B /* WorkoutTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD8A10A24AFFA55004A610B /* WorkoutTracker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5D257A5724AC203E008C91F8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		5D257A5924AC20A4008C91F8 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		5D257A5E24AC2132008C91F8 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		DCD8A10A24AFFA55004A610B /* WorkoutTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTracker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		5D257A5024AC1FCB008C91F8 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				DCD8A10A24AFFA55004A610B /* WorkoutTracker.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				5D257A5824AC203E008C91F8 /* LoginView.swift in Sources */,
 				5D257A4124AC1E93008C91F8 /* SocialApp.swift in Sources */,
 				5D257A5F24AC2132008C91F8 /* WelcomeView.swift in Sources */,
+				DCD8A10B24AFFA55004A610B /* WorkoutTracker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
