@@ -13,6 +13,8 @@
 		5D257A5824AC203E008C91F8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D257A5724AC203E008C91F8 /* LoginView.swift */; };
 		5D257A5A24AC20A4008C91F8 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D257A5924AC20A4008C91F8 /* LoginViewModel.swift */; };
 		5D257A5F24AC2132008C91F8 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D257A5E24AC2132008C91F8 /* WelcomeView.swift */; };
+		DCA51B2E24B10F0A0083B8EB /* WorkoutListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA51B2D24B10F0A0083B8EB /* WorkoutListView.swift */; };
+		DCA51B3024B10F170083B8EB /* WorkoutListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA51B2F24B10F170083B8EB /* WorkoutListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5D257A5724AC203E008C91F8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		5D257A5924AC20A4008C91F8 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		5D257A5E24AC2132008C91F8 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		DCA51B2D24B10F0A0083B8EB /* WorkoutListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListView.swift; sourceTree = "<group>"; };
+		DCA51B2F24B10F170083B8EB /* WorkoutListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 			children = (
 				5D257A5B24AC20FA008C91F8 /* Launch */,
 				5D257A5224AC2012008C91F8 /* Onboarding */,
+				DCA51B2B24B10EB60083B8EB /* MyWorkouts */,
 			);
 			path = Flows;
 			sourceTree = "<group>";
@@ -129,6 +134,23 @@
 				5D257A5E24AC2132008C91F8 /* WelcomeView.swift */,
 			);
 			path = Welcome;
+			sourceTree = "<group>";
+		};
+		DCA51B2B24B10EB60083B8EB /* MyWorkouts */ = {
+			isa = PBXGroup;
+			children = (
+				DCA51B2C24B10EEB0083B8EB /* WorkoutListView */,
+			);
+			path = MyWorkouts;
+			sourceTree = "<group>";
+		};
+		DCA51B2C24B10EEB0083B8EB /* WorkoutListView */ = {
+			isa = PBXGroup;
+			children = (
+				DCA51B2D24B10F0A0083B8EB /* WorkoutListView.swift */,
+				DCA51B2F24B10F170083B8EB /* WorkoutListViewModel.swift */,
+			);
+			path = WorkoutListView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +224,8 @@
 			files = (
 				5D257A5A24AC20A4008C91F8 /* LoginViewModel.swift in Sources */,
 				5D257A5824AC203E008C91F8 /* LoginView.swift in Sources */,
+				DCA51B3024B10F170083B8EB /* WorkoutListViewModel.swift in Sources */,
+				DCA51B2E24B10F0A0083B8EB /* WorkoutListView.swift in Sources */,
 				5D257A4124AC1E93008C91F8 /* SocialApp.swift in Sources */,
 				5D257A5F24AC2132008C91F8 /* WelcomeView.swift in Sources */,
 			);
@@ -334,7 +358,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Social/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Social/Info.plist;
+				INFOPLIST_FILE = Social/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -355,7 +379,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Social/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Social/Info.plist;
+				INFOPLIST_FILE = Social/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
