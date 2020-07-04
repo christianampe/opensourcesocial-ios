@@ -13,7 +13,16 @@
 		5D257A5824AC203E008C91F8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D257A5724AC203E008C91F8 /* LoginView.swift */; };
 		5D257A5A24AC20A4008C91F8 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D257A5924AC20A4008C91F8 /* LoginViewModel.swift */; };
 		5D257A5F24AC2132008C91F8 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D257A5E24AC2132008C91F8 /* WelcomeView.swift */; };
+<<<<<<< HEAD
 		DCD8A10B24AFFA55004A610B /* WorkoutTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD8A10A24AFFA55004A610B /* WorkoutTracker.swift */; };
+=======
+<<<<<<< HEAD
+		DCA51B2E24B10F0A0083B8EB /* WorkoutListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA51B2D24B10F0A0083B8EB /* WorkoutListView.swift */; };
+		DCA51B3024B10F170083B8EB /* WorkoutListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA51B2F24B10F170083B8EB /* WorkoutListViewModel.swift */; };
+=======
+		DCD8A10B24AFFA55004A610B /* WorkoutTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD8A10A24AFFA55004A610B /* WorkoutTracker.swift */; };
+>>>>>>> develop
+>>>>>>> 34dfe31610a4ff3c4cefe79bfb3151da566d75f2
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +34,16 @@
 		5D257A5724AC203E008C91F8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		5D257A5924AC20A4008C91F8 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		5D257A5E24AC2132008C91F8 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		DCD8A10A24AFFA55004A610B /* WorkoutTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTracker.swift; sourceTree = "<group>"; };
+=======
+<<<<<<< HEAD
+		DCA51B2D24B10F0A0083B8EB /* WorkoutListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListView.swift; sourceTree = "<group>"; };
+		DCA51B2F24B10F170083B8EB /* WorkoutListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListViewModel.swift; sourceTree = "<group>"; };
+=======
+		DCD8A10A24AFFA55004A610B /* WorkoutTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTracker.swift; sourceTree = "<group>"; };
+>>>>>>> develop
+>>>>>>> 34dfe31610a4ff3c4cefe79bfb3151da566d75f2
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
