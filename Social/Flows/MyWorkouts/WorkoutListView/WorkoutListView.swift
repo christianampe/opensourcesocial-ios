@@ -16,7 +16,7 @@ struct WorkoutListView: View {
                         WorkoutListRow()
                     }
                 }
-            }.navigationBarTitle("Workouts").navigationBarItems(trailing:
+             }.navigationBarTitle("Workouts").navigationBarItems(trailing:
                 Button("Add Workout") {
                     // MARK: Add Action to show modal for workout sheet
             })
