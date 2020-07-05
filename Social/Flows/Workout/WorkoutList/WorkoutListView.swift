@@ -8,35 +8,31 @@
 import SwiftUI
 
 struct WorkoutListView: View {
+    
+    @State private var addWorkoutSheetPresented = false
+        
     var body: some View {
         NavigationView{
             VStack{
                 List{
                     ForEach(0..<10) { _ in
-                        WorkoutListRow()
+                        WorkoutListRowView()
                     }
                 }
              }.navigationBarTitle("Workouts").navigationBarItems(trailing:
                 Button("Add Workout") {
-                    // MARK: Add Action to show modal for workout sheet
+                    self.addWorkoutSheetPresented.toggle()
             })
         }
+        .sheet(isPresented: $addWorkoutSheetPresented) {
+                    AddWorkoutView(workoutTitle: "", workoutDuration: "", workoutRounds: "", workoutMovement: [""], workoutMovementReps: "", workoutMovementWeight: "")
+                }
     }
-    // MARK: Function to allow deleting of elements from the list once data is loaded in the list array
-//    func delete(at offsets: IndexSet) {
-//        item.remove(atOffsets: offsets)
-//        }
+    // MARK: Add function to allow deleting of elements from the list once data is loaded in the list array
+
 }
 
-struct WorkoutListRow: View {
-    var body: some View {
-        VStack (alignment: .leading){
-            Text("Workout Title")
-            Text("April 20, 2020")
-                .font(.caption)
-        }.padding(.vertical, 10)
-    }
-}
+
 
 struct WorkoutListView_Previews: PreviewProvider {
     static var previews: some View {

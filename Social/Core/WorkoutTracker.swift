@@ -41,6 +41,11 @@ struct WorkoutTracker {
             var resultNotes: String
         }
     }
+    
+    static func empty() -> WorkoutTracker {
+        WorkoutTracker(workouts: [WorkoutTracker.Workout(workoutTitle: "Workout 1", workoutType: "Work Priority", workoutDuration: 10, workoutRounds: 0, workoutMovements: [WorkoutTracker.Workout.Movement(workoutMovement: "Pull-up", workoutMovementReps: 20, workoutMovementWeight: 0)])])
+    }
+    
 }
 
 #if DEBUG
