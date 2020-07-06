@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+class WorkoutListViewModel: ObservableObject {
+    
+    @Published var workoutListRowViewModels = [WorkoutListRowViewModel]()
+    
+    init() {
+        self.workoutListRowViewModels = testDataWorkouts.map { workout in
+            WorkoutListRowViewModel(workoutTracker: workout)
+        }
+    }
+
+}
