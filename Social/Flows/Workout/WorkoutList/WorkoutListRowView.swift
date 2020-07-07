@@ -15,8 +15,9 @@ struct WorkoutListRowView: View {
     //@ObservedObject var workoutRowVM: WorkoutListRowViewModel
     
     var body: some View {
-        VStack (alignment: .leading){
-            NavigationLink(destination: WorkoutDetailView(workout: workoutRowVM.workout)){
+        
+            NavigationLink(destination: WorkoutDetailView()) {
+                VStack (alignment: .leading) {
                 Text("Workout 1")
                 Text("April 20, 2020")
                     .font(.caption)
