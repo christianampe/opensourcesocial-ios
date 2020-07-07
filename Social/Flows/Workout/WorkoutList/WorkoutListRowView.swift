@@ -12,14 +12,14 @@ struct WorkoutListRowView: View {
     
     //MARK: Turning on the observed object on causes errors in preview
     //MARK: How do you access a variable in a nested struct? (i.e. workoutTrackerVM.workoutTracker.workouts.workoutTitle)
-    //@ObservedObject var workoutRowVM: WorkoutListRowViewModel
+    @ObservedObject var workoutRowVM: WorkoutListRowViewModel
     
     var body: some View {
         
             NavigationLink(destination: WorkoutDetailView()) {
                 VStack (alignment: .leading) {
-                Text("Workout 1")
-                Text("April 20, 2020")
+                    Text(workoutRowVM.workoutTracker.workouts[0].workoutTitle)
+                    Text(workoutRowVM.workoutTracker.workouts[0].workoutType)
                     .font(.caption)
             }.padding(.vertical, 10)
         }
@@ -28,6 +28,6 @@ struct WorkoutListRowView: View {
 
 struct WorkoutListRowView_Previews: PreviewProvider {
     static var previews: some View {
-        WorkoutListRowView()
+        WorkoutListRowView(workoutRowVM: WorkoutListRowViewModel(workoutTracker: WorkoutTracker(workouts: [WorkoutTracker.Workout(workoutTitle: "Workout 1", workoutType: "Work Priority", workoutDuration: 10, workoutRounds: 0, workoutMovements: [WorkoutTracker.Workout.Movement(workoutMovement: "Pull-up", workoutMovementReps: 20, workoutMovementWeight: 0)])])))
     }
 }
