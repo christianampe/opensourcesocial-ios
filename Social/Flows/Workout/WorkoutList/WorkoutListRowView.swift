@@ -11,6 +11,7 @@ import Combine
 struct WorkoutListRowView: View {
     
     //MARK: Turning on the observed object on causes errors in preview
+    //MARK: How do you access a variable in a nested struct? (i.e. workoutTrackerVM.workoutTracker.workouts.workoutTitle)
     //@ObservedObject var workoutTrackerVM: WorkoutListRowViewModel
     
     var body: some View {

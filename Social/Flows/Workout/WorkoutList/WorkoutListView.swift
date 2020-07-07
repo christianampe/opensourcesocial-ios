@@ -9,13 +9,15 @@ import SwiftUI
 
 struct WorkoutListView: View {
     
+    @ObservedObject var workoutListVM = WorkoutListViewModel()
+    
     @State private var addWorkoutSheetPresented = false
         
     var body: some View {
         NavigationView{
             VStack{
                 List{
-                    ForEach(0..<10) { _ in
+                    ForEach(workoutListVM.workoutListRowViewModels) { workoutListVM in
                         WorkoutListRowView()
                     }
                 }
