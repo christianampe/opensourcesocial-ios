@@ -26,8 +26,4 @@ struct WorkoutListRowView: View {
     }
 }
 
-struct WorkoutListRowView_Previews: PreviewProvider {
-    static var previews: some View {
-        WorkoutListRowView(workoutRowVM: WorkoutListRowViewModel(workoutTracker: WorkoutTracker(workouts: [WorkoutTracker.Workout(workoutTitle: "Workout 1", workoutType: "Work Priority", workoutDuration: 10, workoutRounds: 0, workoutMovements: [WorkoutTracker.Workout.Movement(workoutMovement: "Pull-up", workoutMovementReps: 20, workoutMovementWeight: 0)])])))
-    }
-}
+

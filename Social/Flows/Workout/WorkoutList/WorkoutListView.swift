@@ -18,7 +18,7 @@ struct WorkoutListView: View {
             VStack{
                 List{
                     ForEach(workoutListVM.workoutListRowViewModels) { workoutListVM in
-                        WorkoutListRowView(workoutRowVM: WorkoutListRowViewModel(workoutTracker: WorkoutTracker(workouts: [WorkoutTracker.Workout(workoutTitle: "Workout 1", workoutType: "Work Priority", workoutDuration: 10, workoutRounds: 0, workoutMovements: [WorkoutTracker.Workout.Movement(workoutMovement: "Pull-up", workoutMovementReps: 20, workoutMovementWeight: 0)])])))
+                        WorkoutListRowView(workoutRowVM: workoutListVM)
                     }
                 }
              }.navigationBarTitle("Workouts").navigationBarItems(trailing:
